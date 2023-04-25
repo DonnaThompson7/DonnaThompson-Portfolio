@@ -1,0 +1,16 @@
+/* add styles here */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url("../images/globe.jpg");
+}
