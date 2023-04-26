@@ -5,12 +5,72 @@ body {
     font-family: sans-serif;
 }
 
+h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-family: 'Verdana', 'sans-serif';
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Segoe UI', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
 .hero {
     height: 600px;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
-    text-align: center;
-    background-image: url("../images/globe.jpg");
+    text-align: right;
+    color: white; 
+    background-image: url("../images/software_development.jpg");
 }
+
+.profilePic {
+    height: 200px;
+    width: 150px;
+    align-items: right;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid white;
+    margin: 20px 20px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+
+
+#About-me img {
+    float: left;
+    max-width: 35px;
+}
+
+/* Footer styles */
+footer {
+    display: inline-block;
+    padding: 10px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* footer h2 {
+    font-size: 20px;
+} */
