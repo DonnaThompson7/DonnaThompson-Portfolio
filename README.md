@@ -9,7 +9,7 @@
 <br/>
 
 ## Link to deployed application:
-[donnathompson7.github.io/Module1-Challenge](https://donnathompson7.github.io/Module1-Challenge)
+[donnathompson7.github.io/DonnaThompson-Portfolio](https://donnathompson7.github.io/DonnaThompson-Portfolio)
 
 <br/>
 
