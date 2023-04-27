@@ -97,20 +97,58 @@ body {
 }
 
 
-
 #projects {
     background-color: lightgoldenrodyellow;
+    border: 5px solid darkblue;
+    border-radius: 25px;
+    max-width: 60%;
+    height: 800px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Horiseon-project img {
+    height: 300px;
+    width: 600px; 
+}
+
+.left-side-of-page {
+    display: inline-block;
+}
+
+/* Sidebar (aside) styles */
+.sidebar {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 30%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:lightblue;
+    border: 5px solid darkblue;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
 }
 
 #Resume {
     background-color: rgb(199, 239, 199);
+    border: 5px solid darkblue;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
 }
 
 #Contact-me {
     background-color: rgb(250, 213, 219);
+    height: 600px;
+    border: 5px solid darkblue;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
 }
-
-
 
 
 /* Footer styles */
