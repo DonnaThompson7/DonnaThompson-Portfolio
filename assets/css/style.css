@@ -81,12 +81,17 @@ body {
 }
 
 
+.middle-content {
+    display: flex;
+    margin: 20px;
+}
+
 #About-me {
     border: 5px solid darkblue;
     border-radius: 25px;
     padding: 10px;
     margin: 10px;
-    max-width: 60%;
+    max-width: 90%;
     /* background-color: lightblue; */
     background: linear-gradient(to right, lavender,lightblue);
 }
@@ -97,56 +102,19 @@ body {
 }
 
 
-#projects {
-    background-color: lightgoldenrodyellow;
-    border: 5px solid darkblue;
-    border-radius: 25px;
-    max-width: 60%;
-    height: 800px;
-    padding: 10px;
-    margin: 10px;
-}
-
-.Horiseon-project img {
-    height: 300px;
-    width: 600px; 
-}
-
-.CSS-Snippet-Cheatsheet,
-.Horiseon-project {
-    border: 5px solid darkblue;
-    border-radius: 25px;
-    padding: 10px;
-    margin: 30px 20px;
-    border-style: dashed;
-    font-size: 20px;
-}
-
-.CSS-Snippet-Cheatsheet {
-    max-width: 35%;
-}
-
-.CSS-Snippet-Cheatsheet img {
-    height: 150px;
-    width: 300px; 
-}
-
-
-
 .left-side-of-page {
     display: inline-block;
 }
 
 
-/* Sidebar (aside) styles */
-.sidebar {
+/* right-side-sidebar (aside) styles */
+.right-side-sidebar {
     display: inline-block;
     margin-right: 20px;
     padding: 20px;
     clear: both;
     /* float: right; */
-    width: 30%;
-    height: 100%;
+    max-width: 9%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:lightblue;
     border: 5px solid darkblue;
@@ -165,13 +133,62 @@ body {
 
 #Contact-me {
     background-color: rgb(250, 213, 219);
-    height: 600px;
+    height: 200px;
     border: 5px solid darkblue;
     border-radius: 25px;
     padding: 10px;
     margin: 10px;
 }
 
+#projects {
+    display: flex;
+    background-color: lightgoldenrodyellow;
+    border: 5px solid darkblue;
+    border-radius: 25px;
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Horiseon-project img {
+    height: 300px;
+    width: 600px; 
+}
+
+
+.Horiseon-project  {
+    border: 5px solid darkblue;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 30px 20px;
+    border-style: dashed;
+    font-size: 20px;
+    height: 500px;
+
+}
+
+.CSS-Snippet-Cheatsheet,
+.Pwd-generator  {
+    border: 5px solid darkblue;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 30px 20px;
+    border-style: dashed;
+    font-size: 20px;
+    height: 300px;
+
+}
+
+.CSS-Snippet-Cheatsheet,
+.Pwd-generator {
+    max-width: 35%;
+}
+
+.CSS-Snippet-Cheatsheet img,
+.Pwd-generator img {
+    height: 150px;
+    width: 300px; 
+}
 
 /* Footer styles */
 footer {
