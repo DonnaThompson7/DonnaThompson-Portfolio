@@ -5,16 +5,22 @@ body {
     font-family: sans-serif;
 }
 
-h1 {
+.header {
+    display: flex;
+    align-items: end;
+}
+
+.header h1 {
     display: inline-block;
+    margin-left: 20px;
     font-size: 48px;
     font-family: 'Verdana', 'sans-serif';
+    margin-bottom: 3px;
 }
 
 .header nav {
-    padding-top: 15px;
+    margin-left: auto;
     margin-right: 20px;
-    float: right;
     font-family: 'Segoe UI', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -30,9 +36,11 @@ h1 {
 }
 
 .hero {
+    display: flex;
+    flex-direction: column;
     height: 600px;
     width: 100%;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     background-size: cover;
     background-position: center;
     text-align: right;
@@ -40,37 +48,106 @@ h1 {
     background-image: url("../images/software_development.jpg");
 }
 
+.hero h1 {
+    font-size: 48px;
+    font-family: 'Verdana', 'sans-serif';
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.hero h1, 
+.hero p {
+    margin-right: 20px;
+}
+
+.hero .subtitle1 {
+    font-size: 24px;
+    margin-right: 110px;
+    margin-bottom: 1px;
+}
+
+.hero .subtitle2 {
+    font-size: 24px;
+    margin-right: 80px;
+}
+
 .profilePic {
     height: 200px;
     width: 150px;
-    align-items: right;
     padding: 20px;
     background-color: white;
     border: 1px solid white;
-    margin: 20px 20px;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
+    margin: 20px 20px 20px 75%;
 }
 
 
-
-#About-me img {
-    float: left;
-    max-width: 35px;
+#About-me {
+    border: 5px solid darkblue;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 60%;
+    /* background-color: lightblue; */
+    background: linear-gradient(to right, lavender,lightblue);
 }
+
+.About-me-header {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+#projects {
+    background-color: lightgoldenrodyellow;
+}
+
+#Resume {
+    background-color: rgb(199, 239, 199);
+}
+
+#Contact-me {
+    background-color: rgb(250, 213, 219);
+}
+
+
+
 
 /* Footer styles */
 footer {
-    display: inline-block;
+    display: flex;
     padding: 10px;
-    clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 200, 242);
 }
 
-/* footer h2 {
-    font-size: 20px;
-} */
+ footer h3 {
+    margin-right: 10px;
+} 
+
+
+/* Responsive screen sizing */
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: purple;
+    }
+  }
+  
