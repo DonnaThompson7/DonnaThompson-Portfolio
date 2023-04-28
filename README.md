@@ -43,6 +43,9 @@
 <br/>
 
 ## Screenshot of my Portfolio webpage:
-![Donna Thompson - Portfolio](./assets/images/Horiseon_homepage.png)
+![Donna Thompson - Portfolio](./assets/images/Portfolio_pic1.png)
+![Donna Thompson - Portfolio](./assets/images/Portfolio_pic2.png)
+![Donna Thompson - Portfolio](./assets/images/Portfolio_pic3.png)
+
 ```
 
