@@ -1,10 +1,11 @@
-/* add styles here */
+/* CSS styles */
 
 body {
     margin: 0;
     font-family: sans-serif;
 }
 
+/* Header styles */
 .header {
     display: flex;
     align-items: end;
@@ -35,6 +36,7 @@ body {
     margin-left: 25px;
 }
 
+/* Hero section styles */
 .hero {
     display: flex;
     flex-direction: column;
@@ -81,6 +83,7 @@ body {
 }
 
 
+/* styles for About, Resume, and Contact Me in the middle section of the page*/
 .middle-content {
     display: flex;
     margin: 20px;
@@ -140,6 +143,8 @@ body {
     margin: 10px;
 }
 
+
+/* styles for my 3 Projects in the lower section of the page*/
 #projects {
     display: flex;
     background-color: lightgoldenrodyellow;
@@ -152,8 +157,8 @@ body {
 
 
 .Horiseon-project img {
-    height: 300px;
-    width: 600px; 
+    height: 55%;
+    width: 90%; 
 }
 
 
@@ -187,8 +192,8 @@ body {
 
 .CSS-Snippet-Cheatsheet img,
 .Pwd-generator img {
-    height: 100px;
-    width: 200px; 
+    height: 45%;
+    width: 90%; 
 }
 
 /* Footer styles */
@@ -203,29 +208,25 @@ footer {
 
  footer h3 {
     margin-right: 10px;
+    font-size: 36px;
+    font-family: impact;
 } 
 
 
 /* Responsive screen sizing */
-
-/* Tablets - header changes color */
+/* Tablets  */
 @media screen and (max-width: 992px) {
     header {
-      background: #772014;
+      background:white;
     }
   }
   
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
+/* smartphones  */
+@media screen and (max-width: 768px) {
     nav {
-      background-color: #bb8588;
+      background-color: white;
     }
   }
   
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: purple;
-    }
-  }
+  
   
