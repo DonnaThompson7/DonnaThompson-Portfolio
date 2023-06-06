@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    color: darkblue;
 }
 
 /* Header styles */
@@ -23,7 +24,7 @@ body {
     margin-left: auto;
     margin-right: 20px;
     font-family: 'Segoe UI', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -93,9 +94,7 @@ body {
     border: 5px solid darkblue;
     border-radius: 25px;
     padding: 10px;
-    /* margin: 5px; */
     max-width: 90%;
-    /* background-color: lightblue; */
     background: linear-gradient(to right, lavender,lightblue);
 }
 
@@ -119,7 +118,7 @@ body {
     /* float: right; */
     max-width: 20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:lightblue;
+    background: linear-gradient(to right, lavender,lightblue);
     border: 5px solid darkblue;
     border-radius: 25px;
     padding: 10px;
@@ -127,27 +126,35 @@ body {
 }
 
 #Resume {
-    background-color: rgb(199, 239, 199);
-    border: 5px solid darkblue;
+    background-color: darkblue;
+    color: white;
     border-radius: 25px;
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
+}
+
+#Resume a {
+    color: white;
 }
 
 #Contact-me {
-    background-color: rgb(250, 213, 219);
+    background-color: darkblue;
+    color: white;
     height: 200px;
     border: 5px solid darkblue;
     border-radius: 25px;
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
 }
 
+#Contact-me a {
+    color: white;
+}
 
 /* styles for my 3 Projects in the lower section of the page*/
 #projects {
     display: flex;
-    background-color: lightgoldenrodyellow;
+    background: linear-gradient(to right, lavender,lightblue);
     border: 5px solid darkblue;
     border-radius: 25px;
     max-width: 100%;
@@ -156,41 +163,37 @@ body {
 }
 
 
-.Horiseon-project img {
-    height: 55%;
+.JAKD-Movie-App img {
+    height: auto;
     width: 90%; 
 }
 
 
-.Horiseon-project  {
+.JAKD-Movie-App  {
     border: 5px solid darkblue;
     border-radius: 25px;
-    padding: 10px;
+    padding: 15px 30px;
     margin: 30px 20px;
     border-style: dashed;
     font-size: 20px;
-    height: 500px;
+    width: 50%;
+    height: auto;
 
 }
 
-.CSS-Snippet-Cheatsheet,
+.Horiseon-project,
 .Pwd-generator  {
     border: 5px solid darkblue;
     border-radius: 25px;
-    padding: 10px;
+    padding: 15px 20px;
     margin: 30px 20px;
     border-style: dashed;
     font-size: 20px;
     height: 300px;
-
-}
-
-.CSS-Snippet-Cheatsheet,
-.Pwd-generator {
     max-width: 25%;
 }
 
-.CSS-Snippet-Cheatsheet img,
+.Horiseon-project img,
 .Pwd-generator img {
     height: 45%;
     width: 90%; 
@@ -203,7 +206,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: center;
     align-items: center;
-    background-color: rgb(222, 200, 242);
+    background: linear-gradient(to right, lavender,lightblue);
 }
 
  footer h3 {
