@@ -48,7 +48,7 @@
             <div class="left-side-of-page">
 
                 <section id="About-me">
-                    <div class="About-me-header">
+                    <div class="about-me-header">
                         <p><b>About Me</b></p>
                     </div>
 
@@ -94,29 +94,46 @@
 
         </div>
 
-        <!-- This section contains 3 of my projects/work samples, and spans the entire width of the screen -->
-        <section id="projects">
-            <h2>My Projects:</h2>
-
-            <!-- Project 2: JAKD Movie App -->
-            <div class="JAKD-Movie-App">
-                <p><b>JAKD Movie App</b></p>
-                <a href="https://Akemp24.github.io/Movie-app"> <img src="./assets/images/Movie_app_landing_page.png"></a> 
+        <!-- This section contains my projects/work samples, and spans the entire width of the screen -->
+        <section class="projects">
+            <h2 class="projects-header">My Projects:</h2>
+            <!-- Featured: Most recent 2 apps -->
+            <div class="featured-apps">
+                <div class="featured-card">
+                    <p><b>Flavor Impersonator</b> is a user-friendly platform where food enthusiasts can share and discover their favorite recipes from popular restaurants or famous dishes. By leveraging the power of Node.js, Express.js, Handlebars.js, MySQL,Sequelize, Bootstrap and Animate.css, we will deliver a secure and efficient web application that meets the needs of recipe enthusiasts. This project promises to be an exciting endeavor that celebrates the joy of cooking and sharing delicious meals. It is deployed in heroku.</p>
+                    <div class="card-image-container">
+                        <div class="homepage-container">
+                            <a href="https://flavor-impersonator-2e87d3d63575.herokuapp.com/"> <img src="./assets/images/Flavor_Impersonator_homepage.png"></a> 
+                        </div>
+                        <div class="other-pages-container">
+                            <a href="https://flavor-impersonator-2e87d3d63575.herokuapp.com/"> <img class="other-pages-img" src="./assets/images/Flavor_Impersonator_search.png"></a> 
+                            <a href="https://flavor-impersonator-2e87d3d63575.herokuapp.com/"> <img class="other-pages-img" src="./assets/images/Flavor_Impersonator_details.png"></a> 
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2: JAKD Movie App -->
+                <div class="featured-card">
+                    <p><b>JAKD Movie App</b> is a dynamic web app that showcases popular movies. The app fetches movie data from an API and presents the top 10 trending movies in an appealing format. Users can easily navigate through movie options, view details such as ratings and titles, and even watch trailers with a simple click. The user can also search for films by title and view upcoming movies. It is deployed in GitHub.</p>
+                    <div class="card-image-container">
+                        <div class="homepage-container">
+                            <a href="https://Akemp24.github.io/Movie-app"> <img src="./assets/images/Movie_app_landing_page.png"></a> 
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <!-- Project 1: Horiseon webpage -->
-            <div class="Horiseon-project">
-                <p><b>Horiseon webpage</b></p>
-                <a href="https://donnathompson7.github.io/Module1-Challenge/"> <img src=".\assets\images\Horiseon_homepage.png"></a>
+            <div class="rest-of-apps">
+                <!-- Project 3: Horiseon webpage -->
+                <div class="horiseon-project">
+                    <p><b>Horiseon webpage</b></p>
+                    <a href="https://donnathompson7.github.io/Module1-Challenge/"> <img src=".\assets\images\Horiseon_homepage.png"></a>
+                </div>
+                <!-- Project 4: Password Generator app -->
+                <div class="pwd-generator">
+                    <p><b>Random Password Generator</b></p>
+                    
+                    <a href="https://donnathompson7.github.io/Password-generator/"> <img src="./assets/images/PasswordGenerator_pic.png"></a>
+                </div>
             </div>
-
-            <!-- Project 3: Password Generator app -->
-            <div class="Pwd-generator">
-                <p><b>Random Password Generator</b></p>
-                 
-                <a href="https://donnathompson7.github.io/Password-generator/"> <img src="./assets/images/PasswordGenerator_pic.png"></a>
-            </div>
-
         </section>
 
     </main>

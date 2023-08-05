@@ -93,21 +93,26 @@ body {
 #About-me {
     border: 5px solid darkblue;
     border-radius: 25px;
-    padding: 10px;
-    max-width: 90%;
+    padding: 40px;
+    margin-right: 20px;
+    max-width: 100%;
     background: linear-gradient(to right, lavender,lightblue);
 }
 
-.About-me-header {
-    text-align: center;
+.about-me-header,
+.projects-header {
+    text-align: left;
     font-size: 24px;
 }
-
+.projects-header {
+    padding-left: 40px;
+}
 
 .left-side-of-page {
     display: inline-block;
+    width: 90%;
+    margin-right: 0px; 
 }
-
 
 /* right-side-sidebar (aside) styles */
 .right-side-sidebar {
@@ -116,7 +121,7 @@ body {
     padding: 20px;
     clear: both;
     /* float: right; */
-    max-width: 20%;
+    max-width: 30%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: linear-gradient(to right, lavender,lightblue);
     border: 5px solid darkblue;
@@ -151,9 +156,10 @@ body {
     color: white;
 }
 
-/* styles for my 3 Projects in the lower section of the page*/
-#projects {
+/* styles for my Projects in the lower section of the page*/
+.projects {
     display: flex;
+    flex-direction: column;
     background: linear-gradient(to right, lavender,lightblue);
     border: 5px solid darkblue;
     border-radius: 25px;
@@ -161,15 +167,15 @@ body {
     padding: 10px;
     margin: 20px;
 }
-
-
-.JAKD-Movie-App img {
+.featured-apps {
+    display: flex;
+    flex-direction: row;
     height: auto;
     width: 90%; 
 }
-
-
-.JAKD-Movie-App  {
+.featured-card  {
+    display: flex;
+    flex-direction: column;
     border: 5px solid darkblue;
     border-radius: 25px;
     padding: 15px 30px;
@@ -178,24 +184,51 @@ body {
     font-size: 20px;
     width: 50%;
     height: auto;
-
 }
-
-.Horiseon-project,
-.Pwd-generator  {
+.card-image-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    height: auto;
+    width: 100%; 
+}
+.homepage-container img {
+    height: auto;
+    width: 90%; 
+}
+.other-pages-container {
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 10px; */
+    /* margin-right: 40px; */
+    height: auto;
+    width: 100%; 
+}
+.other-pages-img {
+    height: auto;
+    width: 80%; 
+}
+.rest-of-apps {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 90%; 
+}
+.horiseon-project,
+.pwd-generator  {
     border: 5px solid darkblue;
     border-radius: 25px;
     padding: 15px 20px;
     margin: 30px 20px;
     border-style: dashed;
     font-size: 20px;
-    height: 300px;
-    max-width: 25%;
+    height: auto;
+    width: 25%;
 }
 
-.Horiseon-project img,
-.Pwd-generator img {
-    height: 45%;
+.horiseon-project img,
+.pwd-generator img {
+    height: auto%;
     width: 90%; 
 }
 
